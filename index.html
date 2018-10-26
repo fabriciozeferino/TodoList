@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="left--header">
+                <div class="data">
+                    <strong class="week--day"></strong><p class="day"></p>
+                </div>
+                <p class="month"></p>
+            </div>
+
+            <div class="right--header">
+                <h3 class="number-tasks">12 tasks</h3>
+            </div>
+            <button class="add--task">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="tasks">
+                <input type="checkbox" name="done" class="checkbox">
+                <input type="textinput" value="Click here and edit your task!" class="to--do"></input>
+                <small>7:00 AM</small>
+                <i class="far fa-trash-alt inc--trash"></i>
+            </div>
+        </div>
+
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
